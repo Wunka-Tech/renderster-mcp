@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.renderster/renderster",
+  "title": "Renderster",
+  "description": "Long video in, captioned vertical clips out: clip, dub, transcribe and auto edit videos",
+  "version": "1.0.0",
+  "websiteUrl": "https://renderster.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.renderster.com/mcp"
+    }
+  ]
+}
